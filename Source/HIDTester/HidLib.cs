@@ -29,7 +29,7 @@ internal class HidLib
 					DeviceList.Add(item);
 					wDevice = item;
 					wDevice.OpenDevice();
-					wDevice.MonitorDeviceEvents = true;
+					//wDevice.MonitorDeviceEvents = true;
 					Dev_Sta = true;
 					return true;
 				}
